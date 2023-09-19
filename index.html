@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <meta
+      type="description"
+      content="This is a Survey form project to collect users data"
+    />
+  </head>
+  <body style="background-color: black">
+    <header>
+      <h1 style="color: white">Survey Form</h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <form>
+            <div>
+              <h2 style="color: white">Customer Name</h2>
+              <label for="firstname" style="color: white"
+                >Enter your first Name</label
+              >
+              <input type="text" id="firstname" name="firstname" />
+              <br /><br />
+              <label for="lastname" style="color: white"
+                >Enter your last Name</label
+              >
+              <input type="text" id="lastname" name="lastname" />
+            </div>
+            <br />
+            <div>
+              <h2 style="color: white">Address</h2>
+              <label for="streetadress" style="color: white"
+                >Street Address</label
+              >
+              <input type="text" id="streetaddress" name="streetaddress" />
+              <br /><br />
+              <label for="streetadressline2" style="color: white"
+                >Street Address Line 2</label
+              >
+              <input
+                type="text"
+                id="streetaddressline2"
+                name="streetaddressline2"
+              />
+              <br /><br />
+              <label for="city" style="color: white">City</label>
+              <input type="text" id="city" name="city" />
+              <br /><br />
+              <label for="state" style="color: white">State</label>
+              <input type="text" id="state" name="state" />
+              <br /><br />
+              <label for="Zip Code" style="color: white">Zip Code</label>
+              <input type="text" id="Zip Code" name="Zip Code" />
+              <br /><br />
+              <label for="country" style="color: white">Country</label>
+              <select id="country">
+                <option value="austrailia" name="austrailia">Austrailia</option>
+                <option value="" name="austrailia">Austrailia</option>
+                <option value="India" name="India">India</option>
+                <option value="pakistan" name="pakistan">Pakistan</option>
+                <option value="england" name="england">England</option>
+              </select>
+            </div>
+            <br />
+            <div>
+              <h2 style="color: white">Contact</h2>
+              <label for="phone" style="color: white">Phone</label>
+              <input type="tel" id="phone" name="phone" />
+              <br /><br />
+              <label for="email" style="color: white">Email</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <br />
+            <div>
+              <h2 style="color: white">Personal Details</h2>
+              <input type="radio" id="genderM" name="gender" />
+              <label for="genderM" style="color: white"> Male</label>
+              <input type="radio" id="genderF" name="gender" />
+              <label for="genderF" style="color: white"> Female</label>
+              <input type="radio" id="other" name="gender" />
+              <label for="other" style="color: white"> Other</label>
+            </div>
+            <br />
+            <div>
+              <h2 style="color: white">Ratings</h2>
+              <div>
+                <label style="color: white">Rating 1: </label>
+                <input type="radio" id="bad" name="rating1" />
+                <label for="bad" style="color: white"> Bad</label>
+                <input type="radio" id="good" name="rating1" />
+                <label for="good" style="color: white"> Good</label>
+                <input type="radio" id="excellent" name="rating1" />
+                <label for="excellent" style="color: white"> Excellent</label>
+              </div>
+              <br />
+              <div>
+                <label style="color: white">Rating 2: </label>
+                <input type="radio" id="bad1" name="rating2" />
+                <label for="bad1" style="color: white"> Bad</label>
+                <input type="radio" id="good1" name="rating2" />
+                <label for="good1" style="color: white"> Good</label>
+                <input type="radio" id="excellent1" name="rating2" />
+                <label for="excellent1" style="color: white"> Excellent</label>
+              </div>
+              <br />
+              <div>
+                <label style="color: white">Rating 3: </label>
+                <input type="radio" id="bad3" name="rating3" />
+                <label for="bad3" style="color: white"> Bad</label>
+                <input type="radio" id="good3" name="rating3" />
+                <label for="good3" style="color: white"> Good</label>
+                <input type="radio" id="excellent3" name="rating" />
+                <label for="excellent3" style="color: white"> Excellent</label>
+              </div>
+              <br />
+              <div>
+                <label style="color: white">Rating 4: </label>
+                <input type="radio" id="bad4" name="rating4" />
+                <label for="bad4" style="color: white"> Bad</label>
+                <input type="radio" id="good4" name="rating4" />
+                <label for="good4" style="color: white"> Good</label>
+                <input type="radio" id="excellent4" name="rating4" />
+                <label for="excellent4" style="color: white"> Excellent</label>
+              </div>
+            </div>
+            <br /><br />
+            <div>
+              <input type="button" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
